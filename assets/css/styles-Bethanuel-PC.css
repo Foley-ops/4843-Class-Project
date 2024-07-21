@@ -1,0 +1,61 @@
+/* CSS Document */
+/* styles.css*/
+
+.page_background {
+	background-color: #FFED00;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.table_width {
+	width: 100%;
+}
+
+.index_header {
+	background-color: #C0C0C0;
+	padding: 75px;
+	text-align: center;
+	font-size: 40px;
+}
+
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover, a:active{
+	color: red;
+}
+
+.menu_active{
+	font-size: 32px;
+	padding: 50px;
+	background-color: #00E5C5;
+	font-style: italic;
+	text-decoration-line: underline;
+	text-align: center;
+	border: dashed;
+}
+
+.menu {
+	font-size: 32px;
+	background-color: coral;
+	text-align: center;
+	padding: 50px;	
+	border: solid;
+	border-color: #000000;
+}
+
+.header_text{
+	padding-top: 25px;
+	text-align: center;
+	font-size: 30px;
+}
+
+ul.a {
+	list-style-type: square;
+}
+
+ol.a {
+	list-style-type: upper-roman;
+}
+
