@@ -24,3 +24,13 @@ Deploying a containerized personal website that scales with high traffic using K
 - Kubernetes
 - Git
 - Google Cloud/AWS
+
+# Deployment Process
+
+docker build -t gcr.io/cloudcomputing-4843-g20/static-website:v1 .
+docker push gcr.io/cloudcomputing-4843-g20/static-website:v1
+
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+
+kubectl get pods ; kubectl get service
